@@ -59,7 +59,7 @@ h1{
 
 .item05{
     grid-column: 1 / span 2;
-    background-color: #f5515b;
+   
    
 }
 
@@ -69,7 +69,11 @@ h1{
    
 }
 
-
+.item06{
+    grid-row:1/ sp ;
+    
+    
+ }
 
 
 
