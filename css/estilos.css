@@ -1,0 +1,75 @@
+h1{
+
+    color: white;
+    size: 100%;
+}
+
+
+.gridpadre{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% auto;
+   
+}
+
+.flexizquierda{
+    background-color: white;
+
+}
+
+.flexderecha{
+    background-color: #f5515b;
+}
+
+.grid01{
+
+    display: grid;
+    grid-template-columns: 25% auto auto auto ;
+    grid-row: 50% auto;
+    gap: 2%;
+}
+
+.item01{
+    grid-column: 1 / span 2;
+    grid-row: 1/span 2;
+}
+
+.item02{
+    grid-column: 3 / span 3;
+    
+}
+
+.item03{
+    grid-column: 3 ;
+  
+}
+
+.item04{
+    grid-column: 4 ;
+  
+}
+
+.grid02{
+
+    display: grid;
+    grid-template-columns: 25% auto auto ;
+    grid-row: 25% auto;
+   
+}
+
+.item05{
+    grid-column: 1 / span 2;
+    background-color: #f5515b;
+   
+}
+
+.item06{
+   grid-column: 3;
+   
+   
+}
+
+
+
+
+
